@@ -1,4 +1,3 @@
-require 'byebug'
 require 'json'
 require 'faraday'
 require "company_check/version"

@@ -1,0 +1,36 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://companycheck.co.uk/api/json/directorSearch?apiKey=dummy_api_key&n=Clive%20Shirley
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 04 Feb 2015 13:25:12 GMT
+      Server:
+      - Apache
+      Content-Length:
+      - '55'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"errorCode":400,"errorMessage":"No name was provided"}'
+    http_version:
+  recorded_at: Wed, 04 Feb 2015 13:25:12 GMT
+recorded_with: VCR 2.9.3

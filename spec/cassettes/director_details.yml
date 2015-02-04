@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://companycheck.co.uk/api/json/directorSearch?apiKey=dummy_api_key&name=Clive%20Shirley
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 04 Feb 2015 13:38:32 GMT
+      Server:
+      - Apache
+      Content-Length:
+      - '511'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"number":"906685048","name":"Mr Clive Shirley","registeredPostcodes":[{"postcode0":"GU12
+        6NY"},{"postcode0":"GU34 4EU"},{"postcode0":"GU34 4LB"}]},{"number":"906436692","name":"Mr
+        Clive Brian Shirley","registeredPostcodes":[{"postcode0":"CR2 0LN"}]},{"number":"911638707","name":"Mr
+        Andrew Clive Shirley","registeredPostcodes":[{"postcode0":"PL19 8EF"}]},{"number":"916845204","name":"Mr
+        Clive Shirley","registeredPostcodes":[]},{"number":"901418435","name":"Mr
+        Shirley Clive Tiddy","registeredPostcodes":[]}]'
+    http_version:
+  recorded_at: Wed, 04 Feb 2015 13:38:33 GMT
+- request:
+    method: get
+    uri: http://companycheck.co.uk/api/json/director?apiKey=dummy_api_key&id=906685048
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 04 Feb 2015 13:38:33 GMT
+      Server:
+      - Apache
+      Content-Length:
+      - '368'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"number":"906685048","firstName":"Clive","title":"Mr","surname":"Shirley","middleNames":"","postalTitle":"Mr
+        C. Shirley","suffix":"","honours":"","dateOfBirth":"1960-04-07","nationality":{"code":"826","nation":"U.KINGDOM","nationality":"British","updatedDate":"2015-01-27"},"numberOfAppointments":12,"numberOfCurrentAppointments":9,"numberOfHistoricalAppointments":3}'
+    http_version:
+  recorded_at: Wed, 04 Feb 2015 13:38:34 GMT
+recorded_with: VCR 2.9.3

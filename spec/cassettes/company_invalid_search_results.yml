@@ -1,0 +1,37 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://companycheck.co.uk/api/json/search?apiKey=dummy_api_key&n=Smarta
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 04 Feb 2015 13:03:22 GMT
+      Server:
+      - Apache
+      Content-Length:
+      - '113'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"errorCode":400,"errorMessage":"You must provide at least one of the
+        following fields: name, postcode, sicCode"}'
+    http_version:
+  recorded_at: Wed, 04 Feb 2015 13:03:22 GMT
+recorded_with: VCR 2.9.3

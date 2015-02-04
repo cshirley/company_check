@@ -1,0 +1,154 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://companycheck.co.uk/api/json/search?apiKey=dummy_api_key&name=Smarta
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 04 Feb 2015 13:37:15 GMT
+      Server:
+      - Apache
+      Content-Length:
+      - '7373'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '[{"number":"08926456","name":"SMARTA CONSULTING LIMITED","status":"Active","sic":"N\/A","address":"MANSION
+        HOUSE MANCHESTER ROAD, ALTRINCHAM, CHESHIRE, WA14 4RW","country":"GB"},{"number":"09182246","name":"SMARTA
+        TRADING LTD","status":"Active","sic":"N\/A","address":"55 WATERLOO RISE, READING,
+        BERKSHIRE, RG2 0LW","country":"GB"},{"number":"09318363","name":"SMARTA HOMES
+        LIMITED","status":"Active","sic":"N\/A","address":"13A MARSTON MOOR BUSINESS
+        PARK, TOCKWITH, YORK, YO26 7QF","country":"GB"},{"number":"09067975","name":"B-SMARTA
+        LIMITED","status":"Active","sic":"N\/A","address":"102A BOLTON ROAD, DARWEN,
+        LANCS, BB3 1BZ","country":"GB"},{"number":"09315446","name":"SMARTA ACCESS
+        LIMITED","status":"Active","sic":"N\/A","address":"13A MARSTON MOOR BUSINESS
+        PARK, TOCKWITH, YORK, YO26 7QF","country":"GB"},{"number":"06333280","name":"SMARTA
+        TRAINING LIMITED","status":"Active","sic":"99999","address":"NORTH HOUSE,
+        ELLAND ROAD, CHURWELL, LEEDS, WEST YORKSHIRE, LS27 7QZ","country":"GB"},{"number":"02952814","name":"SMARTA
+        TECHNOLOGY LIMITED","status":"Active","sic":"43290","address":"UNIT 2 PACIFIC
+        BUSINESS PARK, PACIFIC ROAD, CARDIFF, CF24 5HJ","country":"GB"},{"number":"09222809","name":"SMARTA
+        BUSINESS 101 LTD","status":"Active","sic":"N\/A","address":"145-157 ST JOHN
+        STREET, LONDON, EC1V 4PW","country":"GB"},{"number":"SC367380","name":"SMARTA
+        AUTO LTD","status":"Active","sic":"45200","address":"MBM ACCOUNTANCY 211B,
+        MAIN STREET, BELLSHILL, ML4 1AJ","country":"GB"},{"number":"03871477","name":"SMARTA
+        SECURITY LTD","status":"Active","sic":"80200","address":"NORTH HOUSE ELLAND
+        ROAD, CHURWELL, LEEDS, WEST YORKSHIRE, LS27 7QZ","country":"GB"},{"number":"06333319","name":"SMARTA
+        GROUP LIMITED","status":"Active","sic":"99999","address":"NORTH HOUSE, ELLAND
+        ROAD, CHURWELL, LEEDS, WEST YORKSHIRE, LS27 7QZ","country":"GB"},{"number":"08589394","name":"SMARTA
+        HEALTHCARE LTD","status":"Active","sic":"86220","address":"UNIT 5, FRASER
+        ROAD, PRIORY BUSINESS PARK, BEDFORD, MK44 3WH","country":"GB"},{"number":"08239849","name":"SMARTA
+        SOLUTIONS LTD","status":"Active","sic":"33140","address":"15 COOPER WAY, SLOUGH,
+        BERKSHIRE, SL1 9JA","country":"GB"},{"number":"06470845","name":"SMARTA ENVIRONMENT
+        LIMITED","status":"Active","sic":"36000","address":"NORTH HOUSE ELLAND ROAD,
+        CHURWELL HILL, LEEDS, LS27 7QZ","country":"GB"},{"number":"06935339","name":"SMARTA.COM
+        LIMITED","status":"Active","sic":"74990","address":"SOMERSET HOUSE 6070, BIRMINGHAM
+        BUSINESS PARK, BIRMINGHAM, B37 7BF","country":"GB"},{"number":"09359302","name":"SMARTA
+        ACCOUNTING SOLUTIONS LTD","status":"Active","sic":"N\/A","address":"20-22
+        WENLOCK ROAD, LONDON, N1 7GU","country":"GB"},{"number":"06643570","name":"SMARTA
+        ENTERPRISES LIMITED","status":"Active","sic":"82990","address":"FINSGATE 5-7
+        CRANWOOD STREET, LONDON, EC1V 9EE","country":"GB"},{"number":"06333278","name":"SMARTA
+        TRAINING SERVICES LIMITED","status":"Active","sic":"99999","address":"NORTH
+        HOUSE, ELLAND ROAD, CHURWELL, LEEDS, WEST YORKSHIRE, LS27 7QZ","country":"GB"},{"number":"01340240","name":"SMARTA
+        FASHIONS LIMITED","status":"Dissolved","sic":"N\/A","address":"EMI ELSTREE
+        STUDIOS, SHENLEY ROAD, BOREHAM WOOD, HERTS, HERTS","country":"GB"},{"number":"08007106","name":"MOVE
+        SMARTA LTD","status":"Dissolved","sic":"N\/A","address":"SPECTRUM HOUSE, DUNSTABLE
+        ROAD, REDBOURN, ST. ALBANS, AL3 7PR","country":"GB"},{"number":"08190068","name":"WORK-SMARTA
+        LTD","status":"Dissolved","sic":"N\/A","address":"ASK HOUSE NORTHGATE AVENUE,
+        BURY ST. EDMUNDS, SUFFOLK, IP32 6BB","country":"GB"},{"number":"08033829","name":"SELL
+        SMARTA LTD","status":"Dissolved","sic":"N\/A","address":"SPECTRUM HOUSE, DUNSTABLE
+        ROAD, REDBOURN, ST. ALBANS, AL3 7PR","country":"GB"},{"number":"08145838","name":"SMARTA
+        APPRENTICESHIPS LIMITED","status":"Dissolved","sic":"N\/A","address":"FLAT
+        61 PENNYCROFTS COURT, CORPORATION STREET, STAFFORD, STAFFORDSHIRE, ST16 3LF","country":"GB"},{"number":"06790864","name":"SMARTA
+        COLLECTIONS LIMITED","status":"Dissolved","sic":"N\/A","address":"12 HATHERLEY
+        ROAD, SIDCUP, KENT, DA14 4DT","country":"GB"},{"number":"08033804","name":"RENT
+        SMARTA LIMITED","status":"Dissolved","sic":"N\/A","address":"SPECTRUM HOUSE,
+        DUNSTABLE ROAD, REDBOURN, ST. ALBANS, AL3 7PR","country":"GB"},{"number":"08107701","name":"DRESS
+        SMARTA LTD","status":"Dissolved","sic":"N\/A","address":"1ST FLOOR VENTURE
+        HOUSE, 6 SILVER COURT, WATCHMEAD, WELWYN GARDEN CITY, HERTFORDSHIRE, AL7 1TS","country":"GB"},{"number":"08007052","name":"LET
+        SMARTA LTD","status":"Dissolved","sic":"N\/A","address":"SPECTRUM HOUSE, DUNSTABLE
+        ROAD, REDBOURN, ST. ALBANS, AL3 7PR","country":"GB"},{"number":"08070282","name":"SMARTA
+        SMYCKEN LIMITED","status":"Dissolved","sic":"N\/A","address":"STRON HOUSE
+        100 PALL MALL, LONDON, SW1Y 5EA","country":"GB"},{"number":"04380508","name":"SMARTA
+        INTERNATIONAL LIMITED","status":"Dissolved","sic":"N\/A","address":"51 BERESFORD
+        ROAD, LONDON,","country":"GB"},{"number":"04914564","name":"SMART A LIMITED","status":"Dissolved","sic":"47710","address":"JAMES
+        DARBY BUILDING, BYRON AVENUE, KIRKBY-IN-ASHFIELD, NOTTINGHAMSHIRE, NOTTINGHAMSHIRE","country":"GB"},{"number":"05859894","name":"SMARTA
+        (UK) LTD","status":"Dissolved","sic":"82990","address":"C\/O VENDA LTD, 101
+        ST. MARTINS LANE, LONDON,","country":"GB"},{"number":"08193428","name":"SMARTA
+        CREATIVE SOLUTIONS LIMITED","status":"Dissolved","sic":"N\/A","address":"2
+        DELAFIELD HOUSE, CHRISTIAN STREET, SHADWELL, E1 1QB","country":"GB"},{"number":"05859899","name":"SMARTA.COM
+        LTD","status":"Dissolved","sic":"82990","address":"C\/O VENDA LTD, 101 ST.
+        MARTINS LANE, LONDON,","country":"GB"},{"number":"08004951","name":"LIVE SMARTA
+        GROUP LTD","status":"Dissolved","sic":"N\/A","address":"12 HOLLINGWOOD RISE,
+        ILKLEY, WEST YORKSHIRE, LS29 9PW","country":"GB"},{"number":"03697742","name":"SMARTA
+        SYSTEMS LTD","status":"Dissolved","sic":"82990","address":"JONES GILES LIMITED,
+        11 COOPERS YARD, CURRAN ROAD, CARDIFF, CARDIFF","country":"GB"},{"number":"07730956","name":"GET
+        SMARTA LTD","status":"Dissolved","sic":"99999","address":"RAVENSTONE HOUSE
+        BRITANNIA ROAD, SALE, CHESHIRE, M33 2NN","country":"GB"},{"number":"07929942","name":"SMARTA
+        ALUMINIUM SYSTEMS LTD","status":"Dissolved","sic":"N\/A","address":"14 KINGSWAY,
+        KIRKBY-IN-ASHFIELD, NOTTINGHAM, NG17 7BD","country":"GB"},{"number":"08014678","name":"BUSINESS
+        SMARTA GROUP LTD","status":"Dissolved","sic":"N\/A","address":"ENTERPRISE
+        HOUSE, 5 ROUNDWOOD LANE, HARPENDEN, HERTFORDSHIRE, AL5 3BW","country":"GB"},{"number":"04979999","name":"SMARTA
+        FLOORING SOLUTIONS LIMITED","status":"Dissolved","sic":"82990","address":"VICARAGE
+        CORNER HOUSE, 219 BURTON ROAD, DERBY,","country":"GB"},{"number":"07570573","name":"SMARTA
+        INTERACTIVE MEDIA LTD","status":"Dissolved","sic":"62020","address":"INTERNATIONAL
+        HOUSE, 221 BOW ROAD, BOW, LONDON, E3 2SJ","country":"GB"},{"number":"06194918","name":"SMARTA
+        BUSINESS SOLUTIONS LTD","status":"Dissolved","sic":"69102","address":"SUITE
+        B46, EUROLINK BUSINESS, CENTRE, 49 EFFRA ROAD, BRIXTON, LONDON LONDON","country":"GB"},{"number":"04784156","name":"SMARTA
+        CLEANING SERVICES LTD","status":"Dissolved","sic":"81210","address":"609 CROWN
+        HOUSE, NORTH CIRCULAR ROAD, LONDON,","country":"GB"},{"number":"06426592","name":"SMARTA
+        INTERACTIVE MEDIA LIMITED","status":"Dissolved","sic":"70229","address":"19A
+        GOODGE STREET, LONDON,","country":"GB"}]'
+    http_version:
+  recorded_at: Wed, 04 Feb 2015 13:37:16 GMT
+- request:
+    method: get
+    uri: http://companycheck.co.uk/api/json/company?apiKey=dummy_api_key&id=08926456
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 04 Feb 2015 13:37:16 GMT
+      Server:
+      - Apache
+      Content-Length:
+      - '175'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"name":"SMARTA CONSULTING LIMITED","number":"08926456","sicCode":"","registeredAddress":"MANSION
+        HOUSE MANCHESTER ROAD, ALTRINCHAM, CHESHIRE, WA14 4RW","postcode":"WA14 4RW"}'
+    http_version:
+  recorded_at: Wed, 04 Feb 2015 13:37:17 GMT
+recorded_with: VCR 2.9.3

@@ -26,7 +26,7 @@ Or install it yourself as:
 
 ## Usage
 
-Get Bank Account Details:
+Clien initailisation and Search:
 
 ```ruby
 client =CompanyCheck::Client.new({login_uri:login_uri, key:api_key, secret:api_secret})
